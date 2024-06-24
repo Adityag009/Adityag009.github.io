@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- The character encoding for the HTML document -->
     <meta charset="UTF-8">
+    
+    <!-- Ensures proper rendering on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- The title that appears in the browser tab -->
     <title>Aditya Ghadge - Data Scientist</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Header section with navigation -->
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="skills.html">Skills</a></li>
@@ -20,28 +31,58 @@
         </nav>
     </header>
 
+    <!-- Main content of the page -->
     <main>
+        <!-- Introduction section -->
         <section id="intro">
-            <img src="path_to_your_profile_picture.jpg" alt="Aditya Ghadge">
-            <h1>Aditya Ghadge</h1>
-            <h2>Data Scientist | Data Enthusiast | Tech Explorer</h2>
-            <p>Passionate about leveraging data to solve real-world problems</p>
+            <!-- Profile picture -->
+            <img src="images/profile-picture.jpg" alt="Aditya Ghadge" class="profile-picture">
+            
+            <!-- Name and title -->
+            <h1 class="name">Aditya Ghadge</h1>
+            <h2 class="title">Data Scientist | Data Enthusiast | Tech Explorer</h2>
+            
+            <!-- Brief description -->
+            <p class="description">Passionate about leveraging data to solve real-world problems</p>
         </section>
 
+        <!-- Quick links section -->
         <section id="quick-links">
             <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#projects">Featured Projects</a></li>
-                <li><a href="#skills">Key Skills</a></li>
-                <li><a href="#contact">Get in Touch</a></li>
-            </ul>
+            <div class="links-container">
+                <!-- Link to Projects page -->
+                <a href="projects.html" class="quick-link">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Featured Projects</span>
+                </a>
+                
+                <!-- Link to Skills page -->
+                <a href="skills.html" class="quick-link">
+                    <i class="fas fa-code"></i>
+                    <span>Key Skills</span>
+                </a>
+                
+                <!-- Link to Contact page -->
+                <a href="contact.html" class="quick-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Get in Touch</span>
+                </a>
+            </div>
         </section>
     </main>
 
+    <!-- Footer section -->
     <footer>
         <p>&copy; 2024 Aditya Ghadge. All rights reserved.</p>
+        <!-- Social media links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/adityaghadge" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Adityag009" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/__aaditya__9/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Link to your JavaScript file -->
+    <script src="js/script.js"></script>
 </body>
 </html>
